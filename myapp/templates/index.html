@@ -1,3 +1,4 @@
+{% extends "layouts/base.html" %} {%load static%} {% block content%}
 <h1>Welcome to {{title}}</h1>
 
 <p>
@@ -10,3 +11,6 @@
   and more recently with desktop publishing software like Aldus PageMaker
   including versions of Lorem Ipsum.
 </p>
+<img src="{% static 'vegeta.jpg' %}" alt="Imagen De Vegeta" width="500" />
+
+{% endblock%}

@@ -1,0 +1,40 @@
+body{
+    background-color: #202020;
+    color: whitesmoke;
+}
+
+.navbar{
+    background-color: #404040;
+    padding: 10px;   
+}
+
+.navbar ul{
+    display: flex;
+    justify-content:space-around;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover{
+    color: cornflowerblue   ;
+}
+
+.card{
+    background: whitesmoke;
+    padding: 8px;
+    margin-bottom: 2px;
+    color: black;
+}
+
+.input{
+    background: wheat;
+    text-align: center;
+    display: block;
+}
